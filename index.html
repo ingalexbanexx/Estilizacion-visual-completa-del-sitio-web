@@ -8,39 +8,42 @@
       content="Oficina Anticorrupción de Jujuy - Ética Pública, Transparencia y Control"
     />
     <title>Oficina Anticorrupción de Jujuy</title>
-    <link rel="stylesheet" href="./styles/styles.css" />    
+    <link rel="stylesheet" href="./styles/styles.css" />
   </head>
 
   <body>
     <header>
-      <div class="contenedor">
-        <img
-          src="./images/logo.png"
-          width="90"
-          height="auto"
-          alt="Nombre de la empresa"
-          class="logo"
-        />
-        <h1>Oficina Anticorrupción de Jujuy</h1>
+      <div class="navbar">
+        <div class="brand">
+          <img
+            src="./images/logo.png"
+            width="90"
+            height="auto"
+            alt="Logo de la Oficina Anticorrupción de Jujuy"
+            class="logo"
+          />
+          <h1>Oficina Anticorrupción de Jujuy</h1>
+        </div>
+
+        <nav aria-label="Navegación principal">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pages/quienes-somos.html">Quiénes Somos</a></li>
+            <li><a href="pages/marcos-legales.html">Marcos Legales</a></li>
+            <li>
+              <a href="pages/prevencion-control.html">
+                Prevención y Control Patrimonial
+              </a>
+            </li>
+            <li>
+              <a href="pages/investigacion-fiscalia.html">
+                Investigación y Fiscalía Anticorrupción
+              </a>
+            </li>
+            <li><a href="pages/contactos.html">Contactos</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav aria-label="Navegación principal">
-        <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="pages/quienes-somos.html">Quiénes Somos</a></li>
-          <li><a href="pages/marcos-legales.html">Marcos Legales</a></li>
-          <li>
-            <a href="pages/prevencion-control.html"
-              >Prevención y Control Patrimonial</a
-            >
-          </li>
-          <li>
-            <a href="pages/investigacion-fiscalia.html"
-              >Investigación y Fiscalía Anticorrupción</a
-            >
-          </li>
-          <li><a href="pages/contactos.html">Contactos</a></li>
-        </ul>
-      </nav>
     </header>
 
     <main>
@@ -65,58 +68,61 @@
       <section>
         <h2>Áreas principales</h2>
 
-        <article>
-          <h3>Quiénes Somos</h3>
-          <p>
-            Información institucional, funciones, objetivos y responsabilidades
-            de la Oficina Anticorrupción.
-          </p>
-        </article>
+        <div class="areas-grid">
+          <article>
+            <h3>Quiénes Somos</h3>
+            <p>
+              Información institucional, funciones, objetivos y responsabilidades
+              de la Oficina Anticorrupción.
+            </p>
+          </article>
 
-        <article>
-          <h3>Marcos Legales</h3>
-          <p>
-            Normativas y legislación relacionada con la ética pública,
-            transparencia y prevención de la corrupción.
-          </p>
-        </article>
+          <article>
+            <h3>Marcos Legales</h3>
+            <p>
+              Normativas y legislación relacionada con la ética pública,
+              transparencia y prevención de la corrupción.
+            </p>
+          </article>
 
-        <article>
-          <h3>Prevención</h3>
-          <p>
-            Acciones destinadas a prevenir hechos de corrupción y fortalecer las
-            buenas prácticas en la administración pública.
-          </p>
-        </article>
+          <article>
+            <h3>Prevención</h3>
+            <p>
+              Acciones destinadas a prevenir hechos de corrupción y fortalecer las
+              buenas prácticas en la administración pública.
+            </p>
+          </article>
 
-        <article>
-          <h3>Control Patrimonial</h3>
-          <p>
-            Control y seguimiento de las declaraciones patrimoniales
-            correspondientes a los funcionarios alcanzados por la normativa.
-          </p>
-        </article>
+          <article>
+            <h3>Control Patrimonial</h3>
+            <p>
+              Control y seguimiento de las declaraciones patrimoniales
+              correspondientes a los funcionarios alcanzados por la normativa.
+            </p>
+          </article>
 
-        <article>
-          <h3>Investigación</h3>
-          <p>
-            Recepción, análisis e investigación de situaciones que puedan
-            constituir hechos contrarios a la ética pública.
-          </p>
-        </article>
+          <article>
+            <h3>Investigación</h3>
+            <p>
+              Recepción, análisis e investigación de situaciones que puedan
+              constituir hechos contrarios a la ética pública.
+            </p>
+          </article>
 
-        <article>
-          <h3>Fiscalía Anticorrupción</h3>
-          <p>
-            Información relacionada con las actuaciones y mecanismos
-            institucionales vinculados con la investigación de hechos de
-            corrupción.
-          </p>
-        </article>
+          <article>
+            <h3>Fiscalía Anticorrupción</h3>
+            <p>
+              Información relacionada con las actuaciones y mecanismos
+              institucionales vinculados con la investigación de hechos de
+              corrupción.
+            </p>
+          </article>
+        </div>
       </section>
 
       <section>
         <h2>¿Dónde estamos?</h2>
+
         <div class="location-grid">
           <div class="location-info">
             <h3>Oficina Anticorrupción de Jujuy</h3>
@@ -158,21 +164,28 @@
       <p>
         &copy; 2026 Oficina Anticorrupción de Jujuy. Todos los derechos
         reservados.
-      </p>      
-        <nav aria-label="Redes sociales">
-          <ul>
-            <li>
-              <a href="https://www.facebook.com/anticorrupjujuy" aria-label="Facebook"
-              >Facebook
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/anticorrupjujuy" aria-label="Instagram"
-              >Instagram
-              </a>
-            </li>
-          </ul>
-        </nav>      
+      </p>
+
+      <nav aria-label="Redes sociales">
+        <ul>
+          <li>
+            <a
+              href="https://www.facebook.com/anticorrupjujuy"
+              aria-label="Facebook"
+            >
+              Facebook
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/anticorrupjujuy"
+              aria-label="Instagram"
+            >
+              Instagram
+            </a>
+          </li>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>
